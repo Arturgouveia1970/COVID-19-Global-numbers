@@ -1,2 +1,2 @@
-# capstone-react-redux-coronavirushub
-A SPA with worldwide coronavirus information taken from an API.
+# capstone-react-redux-corona-virus-hub
+A SPA with worldwide corona-virus information taken from an API.
