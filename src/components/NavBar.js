@@ -1,4 +1,4 @@
-import { IoIosArroArrowBack } from 'react-icons/io';
+import { IoIosArroArrowBack } from 'react-icons';
 import { useNavigate, useLocation } from 'react-router-dom';
 import { BsMic } from 'react-icons/bs';
 import { AiOutlineSetting } from 'react-icons/ai';

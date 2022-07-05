@@ -24,7 +24,7 @@ const ContinentDetails = () => {
             />
             <div className="continentCount">
               <span className="continentName">
-                {continentDetail.continent}
+                {continentDetails.continent}
               </span>
               <CountUp
                 delay={1}
