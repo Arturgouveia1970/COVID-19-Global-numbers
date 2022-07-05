@@ -1,8 +1,8 @@
 import { useEffect } from 'react';
 import { useDispatch } from 'react-redux';
 import { Route, Routes, useLocation } from 'react-router-dom';
-import { fetchCountries, fetchTotalData } from './redux/covidslice';
-import Nav from './components/Navbar';
+import { fetchCountries, fetchTotalData } from './redux/covidSlice';
+import Nav from './components/NavBar';
 import Home from './components/Home';
 import ContinentDetails from './components/ContinentDetails';
 
@@ -24,7 +24,7 @@ const App = () => {
 
   return (
     <>
-      <nav />
+      <Nav />
       <div className="mt-16 px-12 pt-6">
         <Routes>
           <Route path="/" element={<Home />} />

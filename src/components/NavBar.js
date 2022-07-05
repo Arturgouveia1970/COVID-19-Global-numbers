@@ -1,9 +1,9 @@
-import { IoIosArroArrowBack } from 'react-icons';
+import { IoIosArrowBack } from 'react-icons/io';
 import { useNavigate, useLocation } from 'react-router-dom';
 import { BsMic } from 'react-icons/bs';
 import { AiOutlineSetting } from 'react-icons/ai';
 
-const Nav = () => {
+function Nav() {
   const navigate = useNavigate();
   const location = useLocation();
 
@@ -11,7 +11,7 @@ const Nav = () => {
     <nav className="navContainer">
       {location.pathname !== '/' && (
         <div className="backButton">
-          <IoIosArroArrowBack
+          <IoIosArrowBack
             onclick={() => {
               navigate(-1);
             }}
@@ -27,6 +27,6 @@ const Nav = () => {
       </div>
     </nav>
   );
-};
+}
 
 export default Nav;

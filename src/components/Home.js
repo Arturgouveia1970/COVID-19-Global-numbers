@@ -16,6 +16,7 @@ const Home = () => {
   const search = ({ target }) => {
     const { value } = target;
     setTerm(value);
+    // eslint-disable-next-line max-len
     const filteredList = continents.filter((continent) => continent.continent.toLowerCase().includes(value?.toLowerCase()));
     if (filteredList.length > 0) {
       setList(filteredList);

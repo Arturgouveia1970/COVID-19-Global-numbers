@@ -1,6 +1,6 @@
 /* eslint-disable no-param-reassign */
 import { createAsyncThunk, createSlice } from '@reduxjs/toolkit';
-import covidAPI from '../api/apiHandler';
+import covidAPI from '../api/apihandler';
 
 export const fetchCountries = createAsyncThunk(
   'covid/fetchCountries',
