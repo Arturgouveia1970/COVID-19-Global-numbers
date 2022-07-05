@@ -16,9 +16,7 @@ const Home = () => {
   const search = ({ target }) => {
     const { value } = target;
     setTerm(value);
-    const filteredList = continents.filter((continent) => {
-      return continent.continent.toLowerCase().includes(value?.toLowerCase());
-    });
+    const filteredList = continents.filter((continent) => continent.continent.toLowerCase().includes(value?.toLowerCase()));
     if (filteredList.length > 0) {
       setList(filteredList);
     } else {
@@ -62,7 +60,7 @@ const Home = () => {
                   placeholder="Search"
                   onChange={search}
                 />
-                <FaSearch size={20} color="white" className="searchButton" />  
+                <FaSearch size={20} color="white" className="searchButton" />
               </div>
             </div>
           </form>

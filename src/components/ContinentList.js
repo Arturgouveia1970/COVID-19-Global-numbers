@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types';
-//import styles from './ContinentList.module.css';
+import styles from './ContinentList.module.css';
 import Continent from './Continent';
 
 const ContinentList = ({ continents }) => (
