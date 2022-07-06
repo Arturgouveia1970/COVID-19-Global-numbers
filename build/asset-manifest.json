@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/static/css/main.c4c06b94.css",
+    "main.js": "/static/js/main.67dc0d9b.js",
+    "static/media/South America.png": "/static/media/South America.b61c5b620f3ef0daea81.png",
+    "static/media/Europe.png": "/static/media/Europe.9cfca2d4da068ca70d03.png",
+    "static/media/Asia.png": "/static/media/Asia.0404f5976d96873337d2.png",
+    "static/media/North America.png": "/static/media/North America.3c49df03834ff80f2835.png",
+    "static/media/Africa.png": "/static/media/Africa.46aff44ee364dd5e61e6.png",
+    "static/media/Australia-Oceania.png": "/static/media/Australia-Oceania.1e6697f638db5ec20261.png",
+    "index.html": "/index.html",
+    "main.c4c06b94.css.map": "/static/css/main.c4c06b94.css.map",
+    "main.67dc0d9b.js.map": "/static/js/main.67dc0d9b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c4c06b94.css",
+    "static/js/main.67dc0d9b.js"
+  ]
+}
