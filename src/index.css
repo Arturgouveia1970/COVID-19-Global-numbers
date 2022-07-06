@@ -135,30 +135,6 @@ body {
   color: #fff;
 }
 
-.countryContainer {
-  display: grid;
-  padding: 40px 0;
-  font-size: x-large;
-  background-repeat: no-repeat;
-  margin: 0 30px;
-  font-family: 'Lato', sans-serif;
-  color: #fff;
-}
-
-.countryDetails {
-  background-repeat: no-repeat;
-  justify-content: center;
-  padding-left: 35%;
-  align-self: center;
-}
-
-.countryCount {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  justify-items: center;
-}
-
 .countryFigures {
   display: flex;
   flex-direction: column;
@@ -344,14 +320,13 @@ ol {
     padding-top: 3%;
     padding-bottom: 20%;
     align-self: center;
-    
   }
 
   .countryCount {
     display: grid;
     grid-template-columns: 33% 33% 33%;
     grid-template-rows: 45% 30%;
-    padding: 0px;
+    padding: 0;
     text-align: center;
   }
 
@@ -367,5 +342,4 @@ ol {
   .item--5 {
     padding-top: 13rem;
   }
-
 }
