@@ -1,3 +1,5 @@
+/* eslint-disable implicit-arrow-linebreak */
+/* eslint-disable function-paren-newline */
 /* eslint-disable max-len */
 import { useSelector } from 'react-redux';
 import { useParams } from 'react-router-dom';
@@ -7,10 +9,14 @@ import CountryList from './CountryList';
 
 const ContinentDetails = () => {
   const { continentName } = useParams();
-  const continentDetails = useSelector((state) => state.covid.continents.find((cont) => cont.continent === continentName));
-  const countries = useSelector((state) => state.covid.countries.filter(
-    (country) => country.continent === continentName,
-  ));
+  const continentDetails = useSelector((state) =>
+    state.covid.continents.find((cont) => cont.continent === continentName),
+  );
+  const countries = useSelector((state) =>
+    state.covid.countries.filter(
+      (country) => country.continent === continentName,
+    ),
+  );
 
   return (
     <>
@@ -22,8 +28,8 @@ const ContinentDetails = () => {
               alt="continent map"
               className="continentImage"
             />
-            <div className="continentCount">
-              <span className="continentName">
+            <div className="continentName">
+              <span className="continentCount">
                 {continentDetails.continent}
               </span>
               <CountUp
