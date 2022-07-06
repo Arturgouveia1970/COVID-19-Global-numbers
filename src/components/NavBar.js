@@ -12,14 +12,14 @@ function Nav() {
       {location.pathname !== '/' && (
         <div className="backButton">
           <IoIosArrowBack
-            onclick={() => {
+            onClick={() => {
               navigate(-1);
             }}
           />
         </div>
       )}
 
-      <h1 className="title">COVID-19 WORLDWIDE INFORMATION</h1>
+      <h1 className="title">COVID-19 GLOBAL NUMBERS</h1>
 
       <div className="icons">
         <BsMic />
