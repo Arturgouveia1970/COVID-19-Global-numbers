@@ -17,11 +17,11 @@ const Continent = ({ continent: { continent, cases, deaths } }) => (
       className="continentImage"
     />
     <div className="continentText">
-      <h4 className="">
+      <h4 className="title">
         <span className="">{`${continent}`}</span>
       </h4>
-      <span className="">{cases.toLocaleString()}</span>
-      <span className="red">{deaths.toLocaleString()}</span>
+      <span className="totalCases">{cases.toLocaleString() || ''}</span>
+      <span className="red">{deaths.toLocaleString() || ''}</span>
     </div>
   </Link>
 );
