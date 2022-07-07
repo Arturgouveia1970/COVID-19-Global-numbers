@@ -214,7 +214,7 @@ ol {
 
 @media (max-width: 768px) {
   body {
-    width: 90%;
+    width: 100%;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -225,7 +225,7 @@ ol {
     justify-content: space-evenly;
     height: 50px;
     background-color: hsla(236, 45%, 36%, 0.884);
-    margin: 0 30px 20px 10%;
+    margin: 0 0 20px 0;
     font-family: 'Lato', sans-serif;
     align-content: center;
   }
@@ -278,9 +278,9 @@ ol {
     display: grid;
     grid-template-columns: 50% 50%;
     padding: 0;
-    margin-left: 10%;
-    margin-right: 10%;
-    max-width: 80%;
+    margin-left: 0;
+    margin-right: 0;
+    max-width: 100%;
   }
 
   .continentImage {
@@ -302,7 +302,7 @@ ol {
     flex-direction: column;
     font-size: 20px;
     align-items: flex-end;
-    justify-content: end;
+    justify-content: flex-end;
     margin-right: 9px;
     padding-bottom: 12%;
     font-family: 'Lato', sans-serif;
@@ -333,7 +333,7 @@ ol {
     display: grid;
     grid-template-rows: auto auto;
     background-repeat: no-repeat;
-    margin: 0 30px;
+    margin: 0 0;
     font-family: 'Lato', sans-serif;
     font-size: small;
     color: #fff;
