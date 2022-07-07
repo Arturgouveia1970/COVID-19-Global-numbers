@@ -2,6 +2,13 @@
 
 body {
   background-color: #5688e4;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.red {
+  color: red;
 }
 
 .navContainer {
@@ -167,12 +174,9 @@ ol {
 
 .countryDetails {
   background-repeat: no-repeat;
-  padding-left: 38%;
-  height: 5px;
-  padding-top: 3px;
-  padding-bottom: 12%;
-  align-self: center;
   justify-content: center;
+  padding-left: 35%;
+  align-self: center;
 }
 
 .countryCount {
@@ -210,7 +214,7 @@ ol {
 
 @media (max-width: 768px) {
   body {
-    width: 375px;
+    width: 90%;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -221,7 +225,7 @@ ol {
     justify-content: space-evenly;
     height: 50px;
     background-color: hsla(236, 45%, 36%, 0.884);
-    margin: 0;
+    margin: 0 30px 20px;
     font-family: 'Lato', sans-serif;
     align-content: center;
   }
@@ -288,6 +292,7 @@ ol {
     align-self: flex-start;
     font-family: 'Lato', sans-serif;
     color: #fff;
+    padding-top: 1rem;
   }
 
   .continentText {
@@ -355,6 +360,10 @@ ol {
 
   .item--3 {
     font-size: 10px;
+  }
+
+  .item--4 {
+    display: flex;
   }
 
   .countryFigures {

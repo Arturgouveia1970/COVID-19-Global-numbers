@@ -29,7 +29,7 @@ const Country = ({
         </h4>
         <span className="countryTestCases item item--2">Cases</span>
         <span className="countryDeaths item item--3">Deaths</span>
-        <span className="item item--4">Total</span>
+        <span className="item item--4">total:</span>
         <span className="countryFigures item irem--5">{cases.toLocaleString()}</span>
         <span className="countryDeathFigures item item--6">{deaths.toLocaleString()}</span>
       </div>
