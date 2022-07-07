@@ -292,6 +292,7 @@ ol {
     align-self: flex-start;
     font-family: 'Lato', sans-serif;
     color: #fff;
+    padding-top: 1rem;
   }
 
   .continentText {
@@ -367,9 +368,5 @@ ol {
 
   .countryFigures {
     display: block;
-  }
-
-  .arrowButton {
-    padding-top: 1rem;
   }
 }
