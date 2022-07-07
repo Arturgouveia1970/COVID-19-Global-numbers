@@ -10,7 +10,7 @@ const Continent = ({ continent: { continent, cases, deaths } }) => (
     data-testid="continentItem"
     className="continentElement"
   >
-    <BsArrowRightCircle size={30} className="arrowButton" />
+    <BsArrowRightCircle size={20} className="arrowButton" />
     <img
       src={images[continent]}
       alt="continent map"
@@ -21,7 +21,7 @@ const Continent = ({ continent: { continent, cases, deaths } }) => (
         <span className="">{`${continent}`}</span>
       </h4>
       <span className="">{cases.toLocaleString()}</span>
-      <span className="">{deaths.toLocaleString()}</span>
+      <span className="red">{deaths.toLocaleString()}</span>
     </div>
   </Link>
 );

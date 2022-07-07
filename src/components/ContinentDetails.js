@@ -1,6 +1,5 @@
-/* eslint-disable implicit-arrow-linebreak */
 /* eslint-disable function-paren-newline */
-/* eslint-disable max-len */
+/* eslint-disable implicit-arrow-linebreak */
 import { useSelector } from 'react-redux';
 import { useParams } from 'react-router-dom';
 import CountUp from 'countup';
@@ -28,8 +27,8 @@ const ContinentDetails = () => {
               alt="continent map"
               className="continentImage"
             />
-            <div className="continentName">
-              <span className="continentCount">
+            <div className="continentCount">
+              <span className="continentName">
                 {continentDetails.continent}
               </span>
               <CountUp
