@@ -1,8 +1,14 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Global Covid-19 Numbers
+# GLOBAL COVID-19 STATS
 
-> This websapp displays global metric data from an API for covid-19 cases.
+> This websapp displays global metric data from the Disease.sh API for covid-19 cases.
+
+## Images
+
+![Home page](./src/images/homeMain-page.png)
+![Home page](./src/images/home-page.png)
+![Home page](./src/images/mobileHomePage.png)
 
 
 ## Built With
