@@ -6,7 +6,6 @@
 
 ## Images
 
-![Home page](./src/images/homeMain-page.png)
 ![Home page](./src/images/home-page.png)
 ![Home page](./src/images/mobileHomePage.png)
 
@@ -20,6 +19,11 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 - Linters: ESLint, Stylelint, Webhint
 - GitFlow
 - Jest
+
+## Presentetion Video
+
+-[Loom video](https://www.loom.com/share/8156a8734fb640c0803d4861db253ac7
+)
 
 ## Author
 
@@ -54,6 +58,11 @@ Feel free to check the [issues page](../../issues/).
 ## Show your support
 
 Give a ⭐️ if you like this project!
+
+## Acknowledgements
+
+- Original design idea by Nelson Sakwa on Behance.
+- API used to fetch data is dsease.sh.
 
 ## 📝 License
 
