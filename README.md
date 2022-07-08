@@ -47,7 +47,7 @@ You must have a browser on your device, a visual code, a git version installed, 
 ### Usage
 
 Set up the project by cloning and changing into the repo directory:
-https://github.com/Arturgouveia1970/Space-project.git
+https://github.com/Arturgouveia1970/COVID-19-Global-numbers.git
 
 
 ## 🤝 Contributing
